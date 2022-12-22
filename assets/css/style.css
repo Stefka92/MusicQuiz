@@ -1,0 +1,17 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(..//images/music2.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.head {
+    text-align: center;
+    font-size: xx-large;
+    color: bisque;
+    background-color: black;
+}
