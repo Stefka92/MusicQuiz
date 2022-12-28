@@ -18,19 +18,21 @@
     </a>
 </header>
 
-<div class="begin-btn"><a href="/quiz.html"><button>Start</button></a></div>
 
 <div class="about-box">
-    <div class ="about-title">
-        <span>Rules</span>
-    </div>
-    <div class= "about-list">
-    <div class="about">1.There will be 10 questions to answer</div>
-    <div class="about">2.You will have <span>10seconds</span> per question</span></div>
-    <div class="about">3.You cant exit the quiz while playing</div>
-    <div class="about">4.Correct/Incorrect answers will be calculated at the bottom of the quiz</div>
-</div>
-
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-btn" class="btn-grid">
+        <button class="bttnn">Answer1</button>
+        <button class="bttnn">Answer2</button>
+        <button class="bttnn">Answer3</button>
+        <button class="bttnn">Answer4</button>
+      </div>
+     </div>
+     <div class="controls">
+        <button id="next" class="next-btn">Next</button>
+        <button id="exit" class="exit-btn">Exit</button>
+     </div>
 </div>
 
 <!--Link to Javascript-->
