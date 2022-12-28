@@ -51,7 +51,7 @@ header a {
 
 .begin-btn{
     position: absolute;
-   top: 78%;
+   top: 75%;
   right:50%;
 }
 
@@ -104,6 +104,6 @@ button {
 .about-list {
     line-height: 3rem;
     font-size: 30px;
-    color: #eff5f8;
+    color: #ff000e;
     text-shadow: 2px 1.3px black
 }
