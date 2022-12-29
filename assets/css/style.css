@@ -107,3 +107,12 @@ button {
     color: #ff000e;
     text-shadow: 2px 1.3px black
 }
+
+.time {
+    top: 30%;
+    font-size: 1rem;
+    color: rgb(5, 5, 4);
+    text-align: right;
+    left: 70%;
+    position: absolute;
+}
