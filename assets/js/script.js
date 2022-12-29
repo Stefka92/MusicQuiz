@@ -17,7 +17,9 @@ function startGame() {
 }
 
 function setNextQuestion() {
+    resetState()
     showQuestion(shuffledQuestions[currentQuestionsIndex])
+
 }
 
 function showQuestion(question) {
@@ -32,6 +34,10 @@ function showQuestion(question) {
         button.addEventListener('click', selectAnswer)
         answerButtonsElement.appendChild(button)
     });
+}
+
+function resetState() {
+    nextButton.classList.add('hide')
 }
 
 function selectAnswer(e) {
