@@ -4,6 +4,7 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
 const time = document.querySelector('h2');
+const timeP = document.getElementById('time')
 let timeSecond = 15;
 
 time.innerHTML = timeSecond;
@@ -19,9 +20,11 @@ if (timeSecond <=0 || timeSecond <1){
 let  shuffledQuestions, currentQuestionsIndex
 
 startButton.addEventListener('click', startGame)
+time.classList.add('hide')
 nextButton.addEventListener('click', () =>{
     currentQuestionsIndex++
     setNextQuestion()
+   
 })
 
 function startGame() {
@@ -30,6 +33,7 @@ function startGame() {
     shuffledQuestions =question.sort(() => Math.random() -.5)
     currentQuestionsIndex = 0
     questionContainerElement.classList.remove('hide')
+    time.classList.remove('hide')
     setNextQuestion(shuffledQuestions, currentQuestionsIndex)
 }
 
