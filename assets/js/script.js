@@ -3,6 +3,18 @@ const nextButton = document.getElementById('next')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
+const time = document.querySelector('h2');
+let timeSecond = 15;
+
+time.innerHTML = timeSecond;
+
+const countDown = setInterval (()=>{
+timeSecond--;
+time.innerHTML = timeSecond;
+if (timeSecond <=0 || timeSecond <1){
+    clearInterval(countDown);
+}
+},1000)
 
 let  shuffledQuestions, currentQuestionsIndex
 
