@@ -51,7 +51,7 @@ header a {
 
 .begin-btn{
     position: absolute;
-    top: 85%;
+    top: 80%;
     right: 50%;
     border-radius: 5px;
     background-color: white;
@@ -122,3 +122,16 @@ button {
     left: 65%;
     position: absolute;
 }
+
+@media screen and (max-width :650px) {
+
+.about-title {
+    font-size: 30px;
+    margin: 0;
+}
+
+.about-list {
+    font-size: 20px;
+}
+}
+
