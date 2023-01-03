@@ -4,15 +4,17 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
 const time = document.querySelector('h2');
-const timeP = document.getElementById('time')
-let timeSecond = 15;
+const timeP = document.getElementsByClassName('time')
+let timeSecond = 60;
 
-time.innerHTML = timeSecond;
+// timer countdown  //
+time.innerHTML = '00:${timeSecond}';
 
 const countDown = setInterval (()=>{
 timeSecond--;
 time.innerHTML = timeSecond;
 if (timeSecond <=0 || timeSecond <1){
+    endtime();
     clearInterval(countDown);
 }
 },1000)
@@ -35,6 +37,9 @@ function startGame() {
     questionContainerElement.classList.remove('hide')
     time.classList.remove('hide')
     setNextQuestion(shuffledQuestions, currentQuestionsIndex)
+}
+function endtime() {
+    time.innerHTML = "Times UP"
 }
 
 function setNextQuestion() {
@@ -93,6 +98,8 @@ function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
 }
+
+// quiz questions //
 
 const question = [
     {
