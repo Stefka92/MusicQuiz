@@ -16,7 +16,7 @@ body {
     justify-content: center;
     font-family: libre baskerville;
 }
-
+/* Heading style*/
 header {
     display: flex; 
     position: fixed; 
@@ -36,7 +36,7 @@ header a {
     background-color: black;
 }
 
-
+/* container style*/
 .about-box {
     width:800px;
     max-width: 80% ;
@@ -122,6 +122,8 @@ button {
     left: 65%;
     position: absolute;
 }
+
+/* style for viewing on medium size devices*/
 
 @media screen and (max-width :650px) {
 
