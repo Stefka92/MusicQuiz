@@ -55,7 +55,7 @@ header a {
     right: 50%;
     border-radius: 5px;
     background-color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
     text-shadow: none;
@@ -103,7 +103,8 @@ button {
 .about-title {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    font-style: italic;
 
 }
 
@@ -125,7 +126,7 @@ button {
 
 /* style for viewing on medium size devices*/
 
-@media screen and (max-width :650px) {
+@media screen and (max-width :768px) {
 
 .about-title {
     font-size: 30px;
@@ -133,7 +134,23 @@ button {
 }
 
 .about-list {
-    font-size: 20px;
+    font-size: 17px;
+    color: white;
+    line-height: 2em;
+}
+
+.begin-btn {
+    font-size: 15px;
+    font-weight: bold;
+    top: none;
+    right: 40%;
+}
+
+.time {
+    color: white;
+    top:26%;
+    left:59%;
+    font-size: 0.75em;
 }
 }
 
