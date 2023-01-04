@@ -134,7 +134,7 @@ button {
 }
 
 .about-list {
-    font-size: 17px;
+    font-size: 25px;
     color: white;
     line-height: 2em;
 }
@@ -142,15 +142,38 @@ button {
 .begin-btn {
     font-size: 15px;
     font-weight: bold;
-    top: none;
-    right: 40%;
+    top: 72%;
+    position: static !important
+   
 }
 
 .time {
     color: white;
-    top:26%;
-    left:59%;
-    font-size: 0.75em;
+    top:34%;
+    left:70%;
+    font-size: 1em;
 }
 }
 
+
+
+@media screen and (max-width :469px){
+    
+    .about-box {
+        width:700px;
+        
+    }
+
+    .about-title{
+        font-size: 20px;
+    }
+
+    .about-list {
+        font-size:18px;
+    }
+
+    .time {
+        font-size: 0.75em;
+        top:33%;
+    }
+}
