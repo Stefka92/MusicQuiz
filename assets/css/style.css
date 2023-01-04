@@ -39,6 +39,7 @@ header a {
 /* container style*/
 .about-box {
     width:800px;
+    height:330px;
     max-width: 80% ;
     margin: 0 auto;
     background:#000000a6;;
@@ -118,7 +119,7 @@ button {
 .time {
     top: 30%;
     font-size: 1rem;
-    color: rgb(5, 5, 4);
+    color: red;
     text-align: right;
     left: 65%;
     position: absolute;
