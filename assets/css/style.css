@@ -48,10 +48,22 @@ header a {
     padding: 65px;
 }
 
+#main-container {
+    width:800px;
+    height:max-content;
+    max-width: 80% ;
+    margin: 0 auto;
+    background:#000000a6;;
+    border-radius: 5px ;
+    text-align: center;
+    padding: 65px;
+
+}
+
 /** This is where I will style my buttons **/
 
 .begin-btn{
-    /* position: absolute; */
+   
     top: 80%;
     right: 50%;
     border-radius: 5px;
@@ -122,6 +134,7 @@ button {
     text-align: right;
     left: 65%;
     position: absolute;
+    top:30%;
 }
 
 /* style for viewing on medium size devices*/
@@ -154,7 +167,7 @@ button {
 }
 
 .time {
-    top:44%;
+    top:32%;
     left:70%;
     font-size: 1em;
 }
@@ -164,7 +177,12 @@ button {
 
 @media screen and (max-width :469px){
     
-    
+    #main-container {
+        width: auto;
+        height: 450px;
+    }
+
+    .about-box {height: 658px;}
 
     .about-title{
         font-size: 20px;
@@ -176,6 +194,11 @@ button {
 
     .time {
         font-size: 0.75em;
-        top:33%;
+        top:72%;
+        left: 60%;
+    }
+
+    button {
+        padding: 0%;
     }
 }

@@ -5,9 +5,12 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
 const time = document.querySelector('h2');
 const timeP = document.getElementsByClassName('time')
+const Delay = document.getElementsByClassName('exit-btn')
+
 let timeSecond = 60;
 
 // timer countdown  //
+
 time.innerHTML = '00:${timeSecond}';
 
 const countDown = setInterval (()=>{
@@ -41,6 +44,11 @@ function startGame() {
 function endtime() {
     time.innerHTML = "Times UP"
 }
+function start()
+{
+    document.getElementById("start").
+    startTimer();
+};
 
 function setNextQuestion() {
     resetState()
