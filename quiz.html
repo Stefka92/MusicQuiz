@@ -17,28 +17,31 @@
     <h1 class="head">Music Mastermind</h1>
     </a>
 </header>
-<!--Timer-->
+
 <div class="time">
   <p class="Start-timer"></p>
-  <h2 id="timer">00.00</h2>
+  <h2 id="timer"></h2>
 </div>
 <!--Questions-->
 <div id ="main-container" class="about-box">
     <div id="question-container" class="hide">
       <div id="question">Question</div>
       <div id="answer-btn" class="btn-grid">
-        <button class="btn">Answer1</button>
-        <button class="btn">Answer2</button>
-        <button class="btn">Answer3</button>
-        <button class="btn">Answer4</button>
+        <button class="btn" onclick="checkAnswer('A')">A</button>
+        <button class="btn" onclick="checkAnswer('B')">B</button>
+        <button class="btn" onclick="checkAnswer('C')">C</button>
+        <button class="btn" onclick="checkAnswer('D')">D</button>
         </div>
       </div>
       <!--navigation buttons-->
      <div class="controls">
         <button id="next" class="next-btn btn hide">Next</button>
-        <button id="start" class="exit-btn" onclick="start()">Ready?</button>
+        <button id="start" class="exit-btn">Ready?</button>
      </div>
 </div>
+
+<div id="score"></div>
+<div id="progress" class="prog"></div>
 
 <!--Link to Javascript-->
 <script src="assets/js/script.js"></script>

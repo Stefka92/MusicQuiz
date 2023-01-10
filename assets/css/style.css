@@ -16,6 +16,7 @@ body {
     justify-content: center;
     font-family: libre baskerville;
 }
+
 /* Heading style*/
 header {
     display: flex; 
@@ -72,6 +73,9 @@ header a {
     text-decoration: none;
     color: black;
     text-shadow: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
 .btn-grid {
@@ -89,10 +93,10 @@ header a {
 
 
 button {
+    
     font-size: 20px;
     font-weight: 400;
     color: black;
-    background-color: #d4d5d7;
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
@@ -120,11 +124,15 @@ button {
     font-style: italic;
 
 }
+.about1 {
+    text-decoration: underline;
+    color: red;
+}
 
 .about-list {
     line-height: 3rem;
     font-size: 30px;
-    color: #ff000e;
+    color: #eef9ff;
     text-shadow: 2px 1.3px black
 }
 
@@ -139,11 +147,11 @@ button {
 
 /* style for viewing on medium size devices*/
 
-@media screen and (max-width :757px) {
+@media screen and (max-width :887px) {
 
     .about-box {
         width:500px;
-        height: 700px;
+        height: 100%;
         
     }
 
@@ -182,14 +190,21 @@ button {
         height: 450px;
     }
 
-    .about-box {height: 658px;}
+    .about-box {   
+        padding-left: 19px;
+        flex-direction: column-reverse;
+        background-color: transparent;}
 
     .about-title{
         font-size: 20px;
     }
 
     .about-list {
-        font-size:18px;
+            font-size: 19px;
+    color: red;
+    text-shadow: none;
+    font-style: italic;
+    font-weight: bold;
     }
 
     .time {

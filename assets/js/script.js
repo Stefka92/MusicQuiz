@@ -4,28 +4,13 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
 const time = document.querySelector('h2');
-const timeP = document.getElementsByClassName('time')
 const Delay = document.getElementsByClassName('exit-btn')
+let scores = document.getElementById('score')
 
-let timeSecond = 60;
-
-// timer countdown  //
-
-time.innerHTML = '00:${timeSecond}';
-
-const countDown = setInterval (()=>{
-timeSecond--;
-time.innerHTML = timeSecond;
-if (timeSecond <=0 || timeSecond <1){
-    endtime();
-    clearInterval(countDown);
-}
-},1000)
 
 let  shuffledQuestions, currentQuestionsIndex
 
 startButton.addEventListener('click', startGame)
-time.classList.add('hide')
 nextButton.addEventListener('click', () =>{
     currentQuestionsIndex++
     setNextQuestion()
@@ -41,14 +26,7 @@ function startGame() {
     time.classList.remove('hide')
     setNextQuestion(shuffledQuestions, currentQuestionsIndex)
 }
-function endtime() {
-    time.innerHTML = "Times UP"
-}
-function start()
-{
-    document.getElementById("start").
-    startTimer();
-};
+
 
 function setNextQuestion() {
     resetState()
@@ -109,7 +87,7 @@ function clearStatusClass(element) {
 
 // quiz questions //
 
-const question = [
+var question = [
     {
         question: 'In what year did Elvis Presley die?',
         answers: [
@@ -200,3 +178,4 @@ const question = [
             {text: 'Memphis',  wrong: false},
         ]
     },]
+
