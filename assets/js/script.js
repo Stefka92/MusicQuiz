@@ -5,10 +5,12 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
 const time = document.querySelector('h2');
 const Delay = document.getElementsByClassName('exit-btn')
-let scores = document.getElementById('score')
+const scoreTracker = document.querySelector('#score')
 
 
-let  shuffledQuestions, currentQuestionsIndex
+let  shuffledQuestions, currentQuestionsIndex;
+let score = 0;
+let acceptingAnswer= true;
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () =>{
@@ -22,6 +24,7 @@ function startGame() {
     startButton.classList.add('hide')
     shuffledQuestions =question.sort(() => Math.random() -.5)
     currentQuestionsIndex = 0
+    score= 0
     questionContainerElement.classList.remove('hide')
     time.classList.remove('hide')
     setNextQuestion(shuffledQuestions, currentQuestionsIndex)
