@@ -145,7 +145,6 @@ button {
     top:30%;
 }
 #score-tracker {
-    float: left;
     color: red;
     font-size: 1.5rem;
 }
@@ -187,18 +186,23 @@ button {
 }
 
 
-
 @media screen and (max-width :469px){
+
+    body {
+    background-position: center center;
+    }
     
     #main-container {
         width: auto;
         height: 450px;
+        padding: 0;
     }
 
     .about-box {   
-        padding-left: 19px;
-        flex-direction: column-reverse;
-        background-color: transparent;}
+        background-color: #000000bf;
+        display: flex;
+        padding: 0;
+        margin-top: 90px;}
 
     .about-title{
         font-size: 20px;
@@ -220,5 +224,17 @@ button {
 
     button {
         padding: 0%;
+    }
+
+    #next {
+        right: 50% ;
+        position:fixed
+    }
+
+    #start {
+        right: 40%;
+        top: 60%;
+        position: fixed;
+
     }
 }
