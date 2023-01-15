@@ -149,6 +149,34 @@ button {
     font-size: 1.5rem;
 }
 
+/* Footer*/
+
+#footer {
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:1rem;
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    left: 0;
+
+}
+
+.networks {
+    color: inherit;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 1em;
+}
+
+
 /* style for viewing on medium size devices*/
 
 @media screen and (max-width :887px) {
