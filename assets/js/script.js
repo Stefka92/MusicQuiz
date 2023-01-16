@@ -5,11 +5,11 @@ const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
 const time = document.querySelector('h2');
 const Delay = document.getElementsByClassName('exit-btn')
-const scoreTracker = document.querySelector('#score')
+const scoreTracker = document.getElementById('score-tracker')
 
 
 let  shuffledQuestions, currentQuestionsIndex;
-let score = 0;
+let total = 0
 let acceptingAnswer= true;
 
 startButton.addEventListener('click', startGame)
@@ -24,10 +24,10 @@ function startGame() {
     startButton.classList.add('hide')
     shuffledQuestions =question.sort(() => Math.random() -.5)
     currentQuestionsIndex = 0
-    score= 0
     questionContainerElement.classList.remove('hide')
     time.classList.remove('hide')
-    setNextQuestion(shuffledQuestions, currentQuestionsIndex)
+    setNextQuestion()
+    scoreTracker.innerHTML = `Score ${total}`
 }
 
 
@@ -53,8 +53,7 @@ function showQuestion(question) {
 function resetState() {
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
-    answerButtonsElement.removeChild
-    (answerButtonsElement.firstChild)
+    answerButtonsElement.removeChild(answerButtonsElement.firstChild)
     }
 }
 
@@ -65,11 +64,15 @@ function selectAnswer(e) {
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
-    if (shuffledQuestions.length > currentQuestionsIndex +1){
+    if (shuffledQuestions.length > currentQuestionsIndex+1){
         nextButton.classList.remove('hide')
     } else {
         startButton.innerText='restart quiz'
         startButton.classList.remove('hide')
+        scoreTracker.innerHTML = `Your final score is ${total}`
+    }
+    if (correct){
+        total++
     }
    
 }
