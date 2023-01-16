@@ -11,6 +11,7 @@ const scoreTracker = document.getElementById('score-tracker')
 let  shuffledQuestions, currentQuestionsIndex;
 let total = 0
 let acceptingAnswer= true;
+let numQuestions = 0
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () =>{
@@ -24,10 +25,12 @@ function startGame() {
     startButton.classList.add('hide')
     shuffledQuestions =question.sort(() => Math.random() -.5)
     currentQuestionsIndex = 0
+    total=0 
     questionContainerElement.classList.remove('hide')
     time.classList.remove('hide')
     setNextQuestion()
     scoreTracker.innerHTML = `Score ${total}`
+    numQuestions = question.length
 }
 
 
@@ -50,6 +53,7 @@ function showQuestion(question) {
     });
 }
 
+
 function resetState() {
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
@@ -63,19 +67,33 @@ function selectAnswer(e) {
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
+    
+       
     })
-    if (shuffledQuestions.length > currentQuestionsIndex+1){
-        nextButton.classList.remove('hide')
-    } else {
-        startButton.innerText='restart quiz'
-        startButton.classList.remove('hide')
-        scoreTracker.innerHTML = `Your final score is ${total}`
-    }
+
     if (correct){
         total++
+        selectedButton.style.background=`#009E60`
+    } 
+    else {
+        selectedButton.style.background=`#EE4B2B`
     }
-   
+
+    if (shuffledQuestions.length > currentQuestionsIndex+1){
+        nextButton.classList.remove('hide')
+        scoreTracker.innerHTML = `Score ${total}`
+       
+         } else {
+        startButton.innerText='restart quiz'
+        startButton.classList.remove('hide')
+        scoreTracker.innerHTML = `Your final score is ${total} / ${numQuestions} `
+        
+    }
+
+     
 }
+
+
 
 function setStatusClass(element, correct) {
     clearStatusClass(element)
