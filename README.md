@@ -1,7 +1,7 @@
 # Music Mastermind
 [View Website Here](https://stefka92.github.io/MusicQuiz/)
 
-![](assets/images/responsivemain.jpg)
+![](assets/images/resp2.jpg)
 
 Music Mastermind is an online music quiz  created to test your music knowledge throughout all different musical genres. The idea for the quiz arose from my love of music and pub quizzes.  The quiz will be comprised of 10 random music related questions all ranging from different genres.
 This website will be targeted towards any one with an interest in different types of music and are looking to test out their musical knowledge just for fun.
