@@ -13,24 +13,24 @@ This website was created for educational purposes only.
 
 In addition to the home page the website also features:
 
--The 'Begin' page;
--The `Quiz`.
+- The 'Begin' page;
+- The `Quiz`.
 
 The business goals for the website are;
 
--To provide an interactive website.
--To provide a fun and light hearted quiz.
--To allow customers to test their musical knowledge.
--To activate the brain to keep you young.
--To be able to view the website on a range of different device sizes.
+- To provide an interactive website.
+- To provide a fun and light hearted quiz.
+- To allow customers to test their musical knowledge.
+- To activate the brain to keep you young.
+- To be able to view the website on a range of different device sizes.
 
 The Users Goals of the website are;
 
--As a first time user, to be able to navigate the website easily.
--As a first time user, to have a clear understanding as to what the quiz is about.
--As a first time user, to allow the user to be able to complete the quiz without any issues.
--As a recurring or first-time visitor, to be able to restart the quiz and try beat their previous score.
--As a recurring or first-time visitor to be able to view their final score.
+- As a first time user, to be able to navigate the website easily.
+- As a first time user, to have a clear understanding as to what the quiz is about.
+- As a first time user, to allow the user to be able to complete the quiz without any issues.
+- As a recurring or first-time visitor, to be able to restart the quiz and try beat their previous score.
+- As a recurring or first-time visitor to be able to view their final score.
 
 ## Strategy
 
@@ -40,63 +40,37 @@ I first had to think about who my target audience would be and what would keep i
 
 Music Mastermind target users are:
 
--All ages.
--All genders.
--People interested in Music.
--Open minded people willing to try new experiences.
--People looking to activate their brain and test their music knowledge.
+- All ages.
+- All genders.
+- People interested in Music.
+- Open minded people willing to try new experiences.
+- People looking to activate their brain and test their music knowledge.
 
 What these users would be looking for:
 
 Easy to navigate website with clear straightforward information.
--Clear and consise questions.
--Multiple choice answered.
--A score tracker so their final result is calculated.
+-  Clear and consise questions.
+- Multiple choice answered.
+- A score tracker so their final result is calculated.
 
 ## Scope
 As this is my is my first time working with JavaScript, I decided to keep the quiz very simple.
 In order to meet the above criteria, the following features will be included in the website
--A Header when clicked will take you back to the home page
--Quiz Section containing multiple choice questions and answers
--Social network links
--A music image to go with the theme
--Control buttons to navigate the quiz
+- A Header when clicked will take you back to the home page
+- Quiz Section containing multiple choice questions and answers
+- Social network links
+- A music image to go with the theme
+- Control buttons to navigate the quiz
 
 ## Structure
 
-The Website is made up of 3 Pages;Home. Which gives an idea of what the quiz is about. The quiz page. Which has the controls, quiz questions and answers. End page. Displaying Final Score and allowing the user to restart the quiz if desired.
-All Pages on the website have:
-A responsive navigation bar at the top which allows the user to navigate through the  site.
-A footer which contains social media links to instagram and facebook along with their icons. The footer also contains a contact us section with all relative information to get in touch.
-Home Page.
-A section with a brief description of what the quiz consists of.
 
-The website is made up of four pages, three of which can be accessed from the navigation menu (Home, About & Sign-up). The fourth page is a brief thank you page which you are redirected to once you sign up for the retreat.
 
-All Pages on the website have:
 
-- A responsive navigation bar at the top which allows the user to navigate through the site. 
-- A footer which contains social media links to instagram and facebook along with their icons. The footer also contains a contact us section with all relative information to get in touch.
-- Home Page.
-    - A section with a brief description of what this website is offering.
-     - A Highlights Section. This section contains an unordered list with some of the main offerings of the retreat. There is also a button labeled “Find out more” which takes you to the about page.
-- About Page.
-     - A section that goes into more detail as to what the retreat offers and the benefits of Pilates.
-     - An image of a lady in a Pilates pose is added to the right of the text to fit in with the description.
-      - A Section with a table containing the 3 day schedule is added underneed the description section.
-      - A sand background image was added to this page to fit in with the theme of the website.
-- Sign Up Page.
-      - A Form consisting of 5 input fields for the users First name, Last name, email address, date of birth, and contact number an additional box was added giving            the user the option to submit any special requests they may have.
-         The user must fill in the First 5 input fields in order to submit otherwise a pop up message appears stating  **Please fill out this form**.  
-            The user submits the form using the submit button which is titled **Sign up now**. 
-- Thank You Page.
-   - A brief thanks message to the user letting them know their form has successfully been submitted.
 
 ## Skeleton
  
-Please note the actual website has changed Since these wireframes.
-During the building process I decided to Change the home page and added an image as the background as I felt it stood out more as I had not much content on the home page as I did not want it cluttered. I also added a button to link to the about page if the user wanted to find out more.
-I also decided to change my about page slightly and added my image opposite the text as I felt it looked better this way.
+Please note the actual website has changed Since these wireframes. During the building process I decided to Change the content on the home page from displaying the rules to a more fun approach instead. I had originally planned on having a timer but this didn't workout within the allocated time frame.
 
 **Home Wireframe**
 
@@ -111,7 +85,7 @@ I also decided to change my about page slightly and added my image opposite the 
 ![](assets/images/formwireframe.jpg)
 
 ## Surface
-The website uses a variety of colours that are associated with the beach. The heading is a periwinkle shade which is carried throughout the website to represent the Website name. The brown and wheat colors are to represent the sand. The grey colours are to bring out the colors of the rocks on the beach. The blue colours are to represent the water and give that blue water calming effect. The colour palette was created using the https://coolors.co/ website.
+The website uses a simple color scheme consisting of neutral tones. The background image contains 2 music records in black which are sitting on a grey floor so I carried this throughout the website. The heading text is the same grey as the background and the color around the heading is black to compliment the music records. The container which displays the questions and answers is on a transparent background so that the music records are still visible. The color palette was created using the https://coolors.co/ website.
 
 ![](assets/images/projectonecolors.png)
 
@@ -120,14 +94,7 @@ I used Google fonts “Marher” throughout the website as after trialing severa
 ![](assets/images/fontpreview.jpg)
 
 ## Features
-This is a fully responsive website which can be viewed on laptop, tablet and mobile devices.
-The Website is made up of three main pages and a page that displays a thank you message.
 
-All Main pages have
-- A title which links you back to the home page when clicked. 
-- A H1 heading for the title and a h2 heading for the tagline underneath.
-- A responsive navigation menu located at the top of the page.
-- A Footer which contains contact information made up of h3 and h4 elements and social media links to both facebook and instagram including their icons as they are universally recognisable.
 
 **Header & Navigation**
 ![](assets/images/nav.jpg)
@@ -135,41 +102,23 @@ All Main pages have
 **Footer**
 ![](assets/images/part3.jpg)
 
-The Home page contains 
-  - A background image of the beach.
- - A paragraph with a brief description of what the website is offering made up of p and br elements.
-- A button that links you to the about page when clicked.
-- An unordered highlights list.
 
-**Home page paragraph, button & list**
-![](assets/images/part2.gif)
-
-The about page contains
-- A detailed section about the retreat made up of p, H1, H3 & BR elements.
-- An Image of a lady on the beach in a pilates pose.
-- A table containing the 3 day schedule made up of H2 Headings and unordered list items.
 
 **About paragraph & image**
 ![](assets/images/about1.jpg)
 **About schedule**
 ![](assets/images/about2.jpg)
 
-The Sign up page contains
-- A background image of a sunset at the beach.
-- A form which consists of text input, email, date and number which are all required so you cannot submit the form if these fields are not complete.
 
 **Sign-up form**
 ![](assets/images/form.jpg)
 
-Thank you Page
- - A background image of the Sea.
--  A brief Thank you message to let you know you have Signed up.
-- A button that takes you back to the home page.
+Th
 
 **Thank you message & button**
 ![](assets/images/thanksf.jpg)
 
-The color palate changes when viewed on mobile and tablet devices as the font was not clear on smaller devices. 
+
 
 
 
