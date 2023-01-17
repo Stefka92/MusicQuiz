@@ -3,7 +3,7 @@ const nextButton = document.getElementById('next')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-btn')
-const time = document.querySelector('h2');
+const time = document.querySelector('span');
 const Delay = document.getElementsByClassName('exit-btn')
 const scoreTracker = document.getElementById('score-tracker')
 

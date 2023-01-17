@@ -1,70 +1,60 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Music Mastermind</title>
-    <!--Font awesome link for icons-->
-    <script scr="https://fontawesome.com/v4/icons/"></script>
-</head>
-
-<body>
-<header>
-    <a href="index.html">
-    <h1 class="head">Music Mastermind</h1>
-    </a>
-</header>
-
-
-<div class="time">
-  <p class="Start-timer"></p>
-  <h2 id="timer"></h2>
-</div>
-<!--Questions-->
-<div id ="main-container" class="about-box">
-    <div id="question-container" class="hide">
-      <div>
-        <p id="score-tracker">Score
-          <span id="total-score">0</span>
-        </p>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--stylesheet-->
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <title>Music Mastermind</title>
+   </head>
+   <body>
+      <header>
+         <a href="index.html">
+            <h1 class="head">Music Mastermind</h1>
+         </a>
+      </header>
+      <div class="time">
+         <p class="Start-timer"></p>
+         <span id="timer" class="hide"></span>
       </div>
-      <div id="question">Question</div>
-      <div id="answer-btn" class="btn-grid">
-        <button class="btn" onclick="checkAnswer('A')">A</button>
-        <button class="btn" onclick="checkAnswer('B')">B</button>
-        <button class="btn" onclick="checkAnswer('C')">C</button>
-        <button class="btn" onclick="checkAnswer('D')">D</button>
-        </div>
+      <!--Questions-->
+      <div id ="main-container" class="about-box">
+         <div id="question-container" class="hide">
+            <div>
+               <p id="score-tracker">Score
+                  <span id="total-score">0</span>
+               </p>
+            </div>
+            <div id="question">Question</div>
+            <div id="answer-btn" class="btn-grid">
+               <button class="btn" onclick="checkAnswer('A')">A</button>
+               <button class="btn" onclick="checkAnswer('B')">B</button>
+               <button class="btn" onclick="checkAnswer('C')">C</button>
+               <button class="btn" onclick="checkAnswer('D')">D</button>
+            </div>
+         </div>
+         <!--navigation buttons-->
+         <div class="controls">
+            <button id="next" class="next-btn btn hide">Next</button>
+            <button id="start" class="exit-btn">Ready?</button>
+         </div>
       </div>
-      <!--navigation buttons-->
-     <div class="controls">
-        <button id="next" class="next-btn btn hide">Next</button>
-        <button id="start" class="exit-btn">Ready?</button>
-     </div>
-</div>
-
-<div id="score"></div>
-<div id="progress" class="prog"></div>
-
-<!--Footer-->
-<footer id="footer" class="footer-items">
-  <p>Created by Stephanie Mc Mahon 2023</p>
-  <div class="networks">
-          <a href="https://www.linkedin.com/in/stephanie-mcmahon-57ab0495/" target="_blank" rel="noopener"
-              aria-label="View my LinkedIn page"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://github.com/Stefka92" target="_blank" rel="noopener"
-              aria-label="View my GitHub page"><i class="fa fa-github" aria-hidden="true"></i></a> 
-  </div>
-</footer>
-
-
-<!--Link to Javascript-->
-<script src="assets/js/script.js"></script>
-
-<!--Link to font-awesome-->
-<script src="https://kit.fontawesome.com/2c19ba1d16.js" crossorigin="anonymous"></script>
-</body>
+      <div id="score"></div>
+      <div id="progress" class="prog"></div>
+      <!--Footer-->
+      <footer id="footer" class="footer-items">
+         <p>Created by Stephanie Mc Mahon 2023</p>
+         <div class="networks">
+            <a href="https://www.linkedin.com/in/stephanie-mcmahon-57ab0495/" target="_blank" rel="noopener"
+               aria-label="View my LinkedIn page"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/Stefka92" target="_blank" rel="noopener"
+               aria-label="View my GitHub page"><i class="fa fa-github" aria-hidden="true"></i></a> 
+         </div>
+      </footer>
+      <!--Link to Javascript-->
+      <script src="assets/js/script.js"></script>
+      <!--Link to font-awesome-->
+      <script src="https://kit.fontawesome.com/2c19ba1d16.js" crossorigin="anonymous"></script>
+   </body>
 </html>
