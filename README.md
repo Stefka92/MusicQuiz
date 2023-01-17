@@ -104,30 +104,13 @@ I used Google fonts “Marher” throughout the website as after trialing severa
 
 
 
-**About paragraph & image**
-![](assets/images/about1.jpg)
-**About schedule**
-![](assets/images/about2.jpg)
+## Technology Used
 
-
-**Sign-up form**
-![](assets/images/form.jpg)
-
-Th
-
-**Thank you message & button**
-![](assets/images/thanksf.jpg)
-
-
-
-
-
- 
-### Languages Used
 HTML - Used as the basic building block for the project and to structure the content.
+
 CSS - Used to style the web content.
 
-## Frameworks, Libraries & Programs Used
+Javasript- used to make the project interactive.
 
 https://lucid.app/ - Used to create wireframes.
 
@@ -156,7 +139,7 @@ https://lucid.app/ - Used to create wireframes.
 ### Deployment
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 1. Log in (or sign up) to Github.
-2. Find the repository for this project,Periwinkle Pilates.
+2. Find the repository for this project.
 3. Click on the Settings link.
 4. Scroll down to Pages on the left hand side of the navigation bar and click on this link.
 6. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -169,7 +152,7 @@ If you would like to make changes to this repositiry without affecting the origi
 
  **How to clone**
 If you would like to download this repository and store it locally you can do so by cloning it
-1.Click the GitHub repository Periwinkle Pilates.
+1.Click the GitHub repository.
 2.Click on the drop down arrow on the Code button located on the top right.
 3.Select and copy the link that appears.
 4.Open Gitpod & select the location where you would like the clone to be saved.
@@ -181,17 +164,6 @@ If you would like to download this repository and store it locally you can do so
 To test my website I went through the following tests:
 I carried out each test using different browsers which included google chrome, firefox and microsoft.
 
-**Links**
-1. Test each link on the index page which included the Header link, the navigation links, the find out more button and both social media links which opened in separate tabs.
-2. Test each link on the About page which included the Header link, the navigation links, and both social media links which opened in separate tabs.
-3. Test each link on the Sign-up page which included the Header link, the navigation links, the sign up now button and both social media links which opened in separate tabs.
-
-**Form**
-1. Test the form leaving out the First name.I  tried to fill out the form leaving out the first name, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the First Name
-2. Test the form leaving out the Last name.I  tried to fill out the form leaving out the Last name, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the Last Name.
-3. Test the form leaving out the Email.I  tried to fill out the form leaving out the Email address, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the Email address.
-4.Test the form leaving out the Date of birth.I  tried to fill out the form leaving out the Date of Birth, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the Date of Birth.
-5.Test the form leaving out the contact number. I  tried to fill out the form leaving out the contact number, when I tried to click the sign up now button. The error message appeared stating that I had to fill in the Contact Number.
 
 ### Lighthouse testing
  
@@ -226,21 +198,18 @@ I used color.a11y to test my colour contrast. There was one contract issue and a
  
 **Code Used**
 
-- [Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/c428cfb8fd5e4852bbba1f94e914b3b4/) I used the love running project as a guide line for creating my form section and schedule table.
+- [How to create a QUIZ using Html, CSS and Javascript](https://www.youtube.com/watch?v=1ydfKDwsYbU) I Used this youtube video as a guideline for creating my quiz.
 
-- [Create a Responsive Webpage Layout for Phones and Tablets](https://www.youtube.com/watch?v=XTkDLeMy-7Q) I Used this youtube video as a guideline for creating my media queries.
+- [Build A Quiz App With JavaScript](https://www.youtube.com/watch?v=riDzcEQbX6k) I Used this youtube video as a guideline for creating my quiz.
 
-- [Create a button](https://stackhowto.com/how-to-make-a-button-link-to-another-page-in-html/) I used stack how to as a guideline for creating my button.
+- [Java cheat sheet](https://htmlcheatsheet.com/js/) I used java cheat sheet when I was unsure about certain code.
 
-- [Create a form](https://www.youtube.com/watch?v=E5MEzC0prd4) I used this youtube video as a guideline for creating my form.
  
 **Content**
 
-The majority of the content was written by Stephanie McMahon. 
+The Home page content was written by Stephanie McMahon. 
 
-I used [total fitness](https://www.totalfitness.co.uk/blog/fitness/what-is-pilates/) for the paragraph explaining what pilates is.
-
-I followed Kera Cudmores template on how to create a readme and took inspiration from daisygunn.
+I used [education quizzes](https://www.educationquizzes.com/ks2/music/?utm_source=bing&utm_medium=cpc&utm_campaign=EQ%20KS2&utm_term=quizzes%20about%20music&utm_content=Subject%20Music) for the quiz questions.
 
 **Media**
 
@@ -251,8 +220,7 @@ I followed Kera Cudmores template on how to create a readme and took inspiration
 
 I would like to acknowledge the following people who helped me in completing this project:
 - My Course Mentor Harry Dhillon for his support and guidance.
-- My friends Sinead Griffin & Geraldine Rynne for testing my site, providing feedback and ensuring all links were working.
-- Aine Hurley for helping come up with a name for my website.
+- My friends and family for their support in continuing this project after the death of my grandmother.
 
  
  
