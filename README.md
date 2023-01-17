@@ -1,4 +1,4 @@
-# Music Matermind
+# Music Mastermind
 [View Website Here](https://stefka92.github.io/MusicQuiz/)
 
 ![](assets/images/responsivemain.jpg)
