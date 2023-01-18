@@ -1,3 +1,4 @@
+// --- Global Variables --- //
 const startButton = document.getElementById('start')
 const nextButton = document.getElementById('next')
 const questionContainerElement = document.getElementById('question-container')
@@ -20,6 +21,7 @@ nextButton.addEventListener('click', () =>{
    
 })
 
+// Start Quiz, set questions and score to 0, hide start button
 function startGame() {
     console.log('Started')
     startButton.classList.add('hide')
@@ -33,7 +35,7 @@ function startGame() {
     numQuestions = question.length
 }
 
-
+// Show next question at random
 function setNextQuestion() {
     resetState()
     showQuestion(shuffledQuestions[currentQuestionsIndex])
@@ -70,7 +72,7 @@ function selectAnswer(e) {
     
        
     })
-
+/* When User selects an answer, apply relevant CSS for correct/incorrect choice.*/
     if (correct){
         total++
         selectedButton.style.background=`#009E60`
@@ -78,7 +80,7 @@ function selectAnswer(e) {
     else {
         selectedButton.style.background=`#EE4B2B`
     }
-
+/* when user has answered all questions alert users and show final score, allow user to restart quiz */
     if (shuffledQuestions.length > currentQuestionsIndex+1){
         nextButton.classList.remove('hide')
         scoreTracker.innerHTML = `Score ${total}`
@@ -94,10 +96,6 @@ function selectAnswer(e) {
     }
 
      
-
-
-
-
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
@@ -112,7 +110,7 @@ function clearStatusClass(element) {
     element.classList.remove('wrong')
 }
 
-// quiz questions //
+// quiz questions and options //
 
 var question = [
     {
