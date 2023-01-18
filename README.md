@@ -64,7 +64,7 @@ In order to meet the above criteria, the following features will be included in 
 
 ## Structure
 
-
+This is a basic quiz containing 10 different questions and 4 different answer buttons to choose from for each question. Each page is designed with simplicity so it doesn't take away from the main aim of the website which is to provide a fun quiz, the background image stays the same throughout. Due to my lack of experience working with javascript I kept the quiz very simple.
 
 
 
