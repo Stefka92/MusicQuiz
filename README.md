@@ -1,7 +1,7 @@
 # Music Mastermind
 [View Website Here](https://stefka92.github.io/MusicQuiz/)
 
-![](assets/images/resp2.jpg)
+![](assets/images/respnew.png)
 
 Music Mastermind is an online music quiz  created to test your music knowledge throughout all different musical genres. The idea for the quiz arose from my love of music and pub quizzes.  The quiz will be comprised of 10 random music related questions all ranging from different genres.
 This website will be targeted towards any one with an interest in different types of music and are looking to test out their musical knowledge just for fun.
@@ -96,11 +96,44 @@ I used Google fonts “Marher” throughout the website as after trialing severa
 ## Features
 
 
-**Header & Navigation**
-![](assets/images/nav.jpg)
+**Header when clicked returns to home page**
 
-**Footer**
-![](assets/images/part3.jpg)
+![](assets/images/headern.jpg)
+
+**Footer containing links to social networks**
+![](assets/images/footer.jpg)
+
+**Home page**
+![](assets/images/homequiz.png)
+
+**Ready button, press to begin quiz**
+![](assets/images/ready.png)
+ 
+ **Background colour changes to green on answer button if correct and score increases by 1**
+ 
+![](assets/images/greenCorrect.png)
+
+**Background colour changes to red on answer button if incorrect**
+
+![](assets/images/restart.png)
+
+**questions and 4 options**
+
+![](assets/images/questions.png)
+
+**buttons hoover yellow over answers and red over controls**
+
+![](assets/images/hoveryellow.png)
+
+![](assets/images/hoverRed.jpg)
+
+**Alert messages when you have answered all 10 questions**
+![](assets/images/alert.png)
+
+
+**button to restart quiz at the end of the quiz**
+![](assets/images/restart.png)
+
 
 
 
@@ -173,7 +206,7 @@ I used Lighthouse on google chrome to test the performance, accessibility, best 
 
 ![](assets/images/performancehome.jpg)
 
-**Sign up page**
+**Quiz page**
 
 ![](assets/images/performancesignup.jpg)
  
