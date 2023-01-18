@@ -74,7 +74,7 @@ header a {
   gap:20px;
   margin:20px 0;
 }
-.begin-btn:hover {
+.begin-btn:hover, #next:hover {
   background-color:red;
   color:aliceblue;
   cursor:pointer;
@@ -87,7 +87,7 @@ button {
   padding:5px 10px;
   cursor:pointer;
 }
-.btn:hover {
+.btn:hover, #start:hover {
   background-color:yellow;
 }
 .controls {
