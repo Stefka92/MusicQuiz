@@ -87,11 +87,14 @@ function selectAnswer(e) {
         startButton.innerText='restart quiz'
         startButton.classList.remove('hide')
         scoreTracker.innerHTML = `Your final score is ${total} / ${numQuestions} `
-        
+        alert("Well done on completing the Quiz, are you ready to view your final score?");
+
+         } 
+
     }
 
      
-}
+
 
 
 
