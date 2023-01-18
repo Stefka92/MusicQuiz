@@ -204,23 +204,29 @@ I used Lighthouse on google chrome to test the performance, accessibility, best 
 
 **Home page**
 
-![](assets/images/performancehome.jpg)
+![](assets/images/lighthousehome.jpg)
 
 **Quiz page**
 
-![](assets/images/performancesignup.jpg)
+![](assets/images/lighthousequiz.jpg)
  
 ### HTML and CSS Validation
 
 I used W3C to test both my HTML and CSS
 
-**Showing errors**
+**All pages passed**
 
-![](assets/images/errors.jpg)
+**Home page showing no errors**
 
-**passed**
+![](assets/images/htmlpassed.png)
 
-![](assets/images/passed.jpg)
+**Quiz page showing no errors**
+
+![](assets/images/htmlquizpassed.png)
+
+**CSS showing no errors**
+
+![](assets/images/csspass.png)
 
 ## color.a11y.com
 I used color.a11y to test my colour contrast. There was one contract issue and a recommendation to change the colors or else increase the font size so I went with increasing the font size 
