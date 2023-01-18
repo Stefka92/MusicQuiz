@@ -110,11 +110,11 @@ I used Google fonts “Libre Baskerville” throughout the website as after tria
 
 ![](assets/images/restart.png)
 
-**questions and 4 options**
+**Questions and 4 options**
 
 ![](assets/images/questions.png)
 
-**buttons hoover yellow over answers and red over controls**
+**Buttons hoover yellow over answers and red over controls**
 
 ![](assets/images/hoveryellow.png)
 
@@ -124,7 +124,7 @@ I used Google fonts “Libre Baskerville” throughout the website as after tria
 ![](assets/images/alert.png)
 
 
-**button to restart quiz at the end of the quiz**
+**Button to restart quiz at the end of the quiz**
 ![](assets/images/restart.png)
 
 
