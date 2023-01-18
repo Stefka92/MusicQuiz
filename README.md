@@ -72,26 +72,19 @@ In order to meet the above criteria, the following features will be included in 
  
 Please note the actual website has changed Since these wireframes. During the building process I decided to Change the content on the home page from displaying the rules to a more fun approach instead. I had originally planned on having a timer but this didn't workout within the allocated time frame.
 
-**Home Wireframe**
+**Wireframes**
 
-![](assets/images/home%20wireframe.jpg)
+![](assets/images/wireframe.png)
 
-**About Wireframe**
-
-![](assets/images/aboutwireframe.jpg)
-
-**Sign-up Wireframe**
-
-![](assets/images/formwireframe.jpg)
 
 ## Surface
 The website uses a simple color scheme consisting of neutral tones. The background image contains 2 music records in black which are sitting on a grey floor so I carried this throughout the website. The heading text is the same grey as the background and the color around the heading is black to compliment the music records. The container which displays the questions and answers is on a transparent background so that the music records are still visible. The color palette was created using the https://coolors.co/ website.
 
-![](assets/images/projectonecolors.png)
+![](assets/images/coolors.png)
 
-I used Google fonts “Marher” throughout the website as after trialing several different fonts I found this one stood out the most as it was clear and still ledable on smaller devices.
+I used Google fonts “Libre Baskerville” throughout the website as after trialing several different fonts I found this one stood out the most as it was clear and still ledable on smaller devices.
 
-![](assets/images/fontpreview.jpg)
+![](assets/images/fonts.png)
 
 ## Features
 
@@ -143,9 +136,9 @@ HTML - Used as the basic building block for the project and to structure the con
 
 CSS - Used to style the web content.
 
-Javasript- used to make the project interactive.
+Javasript - used to make the project interactive.
 
-https://lucid.app/ - Used to create wireframes.
+[Balsamiq](https://balsamiq.com/wireframes/desktop/#) - Used to create wireframes.
 
 [Git](https://git-scm.com/) - For version control.
 
